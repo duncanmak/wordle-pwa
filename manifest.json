@@ -1,49 +1,46 @@
 {
-  "name": "PWA Starter",
-  "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
-  "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
-  "orientation": "any",
-  "background_color": "#E1477E",
-  "related_applications": [],
-  "prefer_related_applications": false,
+  "short_name": "Wordle",
+  "name": "Wordle",
   "icons": [
     {
-      "src": "assets/icons/icon_512.png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "assets/icons/icon_192.png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "assets/icons/icon_48.png",
+      "src": "/wordle/images/wordle_logo_48x48.png",
+      "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "assets/icons/icon_24.png",
-      "sizes": "24x24"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "assets/screenshots/screen.png"
+      "src": "/wordle/images/wordle_logo_72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
     },
     {
-      "src": "assets/screenshots/screen.png"
+      "src": "/wordle/images/wordle_logo_96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
     },
     {
-      "src": "assets/screenshots/screen.png"
+      "src": "/wordle/images/wordle_logo_144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/wordle/images/wordle_logo_168x168.png",
+      "type": "image/png",
+      "sizes": "168x168"
+    },
+    {
+      "src": "/wordle/images/wordle_logo_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/wordle/images/wordle_logo_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "features": [
-    "Cross Platform",
-    "fast",
-    "simple"
-  ],
-  "categories": [
-    "utility"
-  ]
+  "start_url": "https://www.powerlanguage.co.uk/wordle/",
+  "background_color": "#6aaa64",
+  "display": "standalone",
+  "theme_color": "#6aaa64",
+  "description": "A daily word game"
 }
