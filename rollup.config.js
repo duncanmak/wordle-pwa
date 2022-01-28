@@ -36,6 +36,7 @@ export default {
         { src: "assets/**/*", dest: "dist/assets/" },
         { src: "styles/global.css", dest: "dist/styles/" },
         { src: "manifest.json", dest: "dist/" },
+        { src: "main.e65ce0a5.js", dest: "dist/" }
       ],
     })
   ],
