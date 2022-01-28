@@ -33,7 +33,7 @@ export default {
     }),
     copy({
       targets: [
-        { src: "assets/**/*", dest: "dist/assets/" },
+        { src: "images/**", dest: "dist/images/" },
         { src: "styles/global.css", dest: "dist/styles/" },
         { src: "manifest.json", dest: "dist/" },
         { src: "main.e65ce0a5.js", dest: "dist/" }
